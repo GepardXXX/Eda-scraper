@@ -44,7 +44,6 @@ def get_data(url):
             with open('main\data.json', 'w', encoding='utf-8') as f:
                 json.dump(data_list, f, indent=4, ensure_ascii=False)
 
-
         if total == 0:
             print('Сбор данных завершён')
         else:
@@ -55,10 +54,7 @@ def get_data(url):
 def main():
     get_data('https://eda.ru/recepty/afishaeda/russkaya-kuhnya/osnovnye-blyuda?page')
 
+    
 
 if __name__ == '__main__':
     main()
-        
-
-
-
