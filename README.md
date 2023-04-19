@@ -2,7 +2,7 @@
 Скрипт, который парсит сайт [eda.ru](https://eda.ru/recepty/afishaeda/russkaya-kuhnya/osnovnye-blyuda?page=1)
 ## __Примеры__
 Пример файла в формате .json:
-```
+```javascript
    {
         "Название блюда": "Голубцы",
         "Калорийность": "541 ккал",
