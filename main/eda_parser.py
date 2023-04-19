@@ -54,7 +54,6 @@ def get_data(url):
 def main():
     get_data('https://eda.ru/recepty/afishaeda/russkaya-kuhnya/osnovnye-blyuda?page')
 
-    
 
 if __name__ == '__main__':
     main()
