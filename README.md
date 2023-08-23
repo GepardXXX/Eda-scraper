@@ -1,7 +1,7 @@
-# Eda parser
-[![GitHub license](https://img.shields.io/github/license/GepardXXX/eda_parser)](https://github.com/GepardXXX/eda_parser/blob/main/LICENSE)
+# Eda scraper
+[![GitHub license](https://img.shields.io/github/license/GepardXXX/eda_parser)](https://github.com/GepardXXX/Eda-scraper/blob/main/LICENSE)
 [![Python Version](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/downloads/release/python-3100)
-![GitHub repo size](https://img.shields.io/github/repo-size/GepardXXX/Message-Collector-bot)
+![GitHub repo size](https://img.shields.io/github/repo-size/GepardXXX/Eda-scraper)
 
 Этот проект представляет собой парсер для сбора информации о рецептах блюд с сайта [eda.ru](https://eda.ru/recepty/afishaeda/russkaya-kuhnya/osnovnye-blyuda?page=1)
 
@@ -20,15 +20,18 @@ pip install -r requirements.txt
 ```
 ## Структура проекта
 ```css
-eda_parser/
+Eda-scraper/
 ├── main/
 │   ├── data.json
-│   └── eda_parser.py
+│   └── scraper.py
 ├── README.md
+├──LICENSE
 └── requirements.txt
 ```
+- `scraper.py` - Скрипт для парсинга рецептов с сайта eda.ru.
+- `README.md`: Файл, содержащий описание проекта, инструкции по использованию и связи.
+- `LICENSE`: Файл с лицензией, определяющей условия распространения и использования вашего кода.
 - `data.json` - JSON-файл, в который сохраняется информация о рецептах блюд.
-- `eda_parser.py` - Скрипт для парсинга рецептов с сайта eda.ru.
 - `requirements.txt` - Файл со списком зависимостей, необходимых для проекта.
 
 ## Использование
@@ -37,10 +40,10 @@ eda_parser/
 ```bash
 pip install -r requirements.txt
 ```
-2. Запустите скрипт eda_parser.py:
+2. Запустите скрипт `scraper.py`:
 
 ```bash
-python main/eda_parser.py
+python main/scraper.py
 ```
 Скрипт начнет собирать информацию о рецептах с сайта eda.ru и сохранять ее в файл `data.json`
 
