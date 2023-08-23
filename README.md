@@ -1,4 +1,8 @@
 # Eda parser
+[![GitHub license](https://img.shields.io/github/license/GepardXXX/Message-Collector-bot)](https://github.com/GepardXXX/Message-Collector-bot/blob/main/LICENSE)
+[![Python Version](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/downloads/release/python-3100)
+![GitHub repo size](https://img.shields.io/github/repo-size/GepardXXX/Message-Collector-bot)
+
 Этот проект представляет собой парсер для сбора информации о рецептах блюд с сайта [eda.ru](https://eda.ru/recepty/afishaeda/russkaya-kuhnya/osnovnye-blyuda?page=1)
 
 ## Требования
