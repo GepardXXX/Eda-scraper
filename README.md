@@ -1,4 +1,4 @@
-# __Eda_parser__
+# Eda parser
 Этот проект представляет собой парсер для сбора информации о рецептах блюд с сайта [eda.ru](https://eda.ru/recepty/afishaeda/russkaya-kuhnya/osnovnye-blyuda?page=1)
 
 ## Требования
